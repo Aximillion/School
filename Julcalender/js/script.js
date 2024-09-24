@@ -42,7 +42,7 @@ function createDoors(){
 createDoors();
 
 function openDoor(doorNumber, doorElement){
-  doorElement.style.backgroundImage = 'url("/img/bild2.jpg")';
+  doorElement.style.backgroundImage = 'url("./img/bild2.jpg")';
   const offer = randomOfferFunc();
   alert(`congratulations! you opened door number ${doorNumber}! and you got ${offer.label}`);
  
