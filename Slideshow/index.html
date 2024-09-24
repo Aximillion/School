@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Slideshow Test</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/script.js"></script>
+<meta charset="UTF-8">
+</head>
+<body>
+<div id="site-main">
+
+	<div id="slideshow-wrapper">
+		<button class="slider-controls" id="back" onclick="changeSlide(-1)">Prev</button>
+		<button class="slider-controls" id="forward" onclick="changeSlide(+1)">Next</button>
+		<div id="img-wrapper" class="slide-col">
+			<img id="slide-img" src="img/hast.jpg">
+		</div>
+		<div id="text-wrapper" class="slide-col">
+			<p id="slide-nr">1 / 3</p>
+			<h2 id="slide-heading">Horse</h2>
+			<p id="slide-text">this is a horse</p>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
