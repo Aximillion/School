@@ -1,16 +1,3 @@
-/* to do list:
-
-1) make array with all discounts or import json. -doesnt works or idk how
-
-2) math.random? to pick one random -done
-
-3) use grid to make calender? -done
-
-4) make random picked day be highlighted)
-
-5) attach it to day.
-*/
-
 const tarjoukset = {
     "christmasSpecials": [
       { "label": "Läppärit -20%", "code": "ASDJKL9023" },
