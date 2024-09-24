@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url('/img/bild1.jpg');
+	background-size: cover;
+}
+
+#site-main {
+	
+}
+.calendar-door {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+	margin: 10px;
+	background-image: url("/img/bild3.jpg");
+	background-color: white;
+	background-size: contain;
+}
+
+.door-number {
+	margin: 0;
+}
+
+#calendar-container {
+	width: 600px;
+	margin: 50px auto;
+}
+
+#calendar-header {
+	width: 600px;
+	margin: 50px auto;
+	background-color: blanchedalmond;
+	color: black;
+	border: 20px white; /* border doesn't seems to be working. */
+	text-align: center;
+	padding: 5px;
+}
+#calendar-body {
+	width: 600px;
+	background-color: #236b1f;
+	overflow: auto;
+}
