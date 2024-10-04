@@ -109,5 +109,3 @@ function padChanger(){
 
 
 padChanger();
-
-// 		<div class="btn" id="btn1" onclick="" tabindex="0"></div>
