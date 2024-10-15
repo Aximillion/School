@@ -1,0 +1,124 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#nameInput {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    color: white;
+}
+
+button:focus {
+    color: black; 
+    position: absolute;
+    top: 380px;
+    left: 400px;
+    border: blue;
+}
+
+button{
+    color: black;
+    position: absolute;
+    top: 380px;
+    left: 400px;
+}
+
+#questionText{
+    position: absolute;
+    color: white;
+    top: 350px;
+    left: 550px;
+    font-size: 40px;
+}
+
+#choice1{
+    position: absolute;
+    left: 570px;
+    top: 540px;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: black;
+}
+#choice2{
+    position: absolute;
+    left: 820px;
+    top:540px;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: black;
+}
+#choice3{
+    position: absolute;
+    left: 1080px;
+    top:540px;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: black;
+}
+#pointsText{
+    position: absolute;
+    right: 620px;
+    top:220px;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+#playerScore{
+    position: absolute;
+    right: 610px;
+    top: 210px;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+#maxScore{
+    position: absolute;
+    right: 550px;
+    top: 200px;
+    transform: translate(-50%, -50%);
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+html, ::backdrop{
+    background-color: #171717;
+}
+
+#currentQuestion{
+    position: absolute;
+    left: 550px;
+    top: 170px;
+    font-size: 30px;
+    color: white;
+}
+
+#playerResult{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 600px;
+    font-size: 40px;
+}
+
+#restart{
+    position: absolute;
+    left: 940px;
+    top: 700px;
+}

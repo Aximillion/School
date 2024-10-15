@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz!!</title>
+    <link rel="stylesheet" href="./css/style.css"> <!-- Link to css file to update code and stuff and decorate as wish :) -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> <!-- Font imported from google fonts-->
+</head>
+<body>
+     <!-- Page 1: Name Input Page -->
+    <div style="position: relative;" id="page1">
+        <img src="./image/page1.png" alt="page1" id="pageImage">
+        <input type="text" id="nameInput" placeholder="Enter Name">
+        <button>Start quizz</button>
+    </div>
+     <!-- Page 2: Question Page (Initially Hidden) -->
+     <div id="page2" style="display: none;">
+        <h2 id="questionText"></h2>
+        <div>
+            <h3 id="pointsText">Points:</h3>
+            <h4 id="playerScore">0</h4>
+            <h5 id="maxScore">/10</h5>
+            <h6 id="currentQuestion"> 0/10 </h6>            
+            <button id="choice1"></button>
+            <button id="choice2"></button>
+            <button id="choice3"></button>
+        </div>
+    </div>
+    <!-- Page 3 test -->
+    <div id="page3" style="display: none;">
+        <p id="playerResult">Result</p>
+        <button id="restart" style="display: none;">Retry</button>
+
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
