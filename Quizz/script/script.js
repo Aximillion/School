@@ -208,7 +208,16 @@ function scorePage(){
         document.getElementById("playerScore").innerHTML == point;
         document.getElementById("playerResult").innerHTML = "You are the peak human with highest level of knowledge!";
        imageUrl = "./image/perfectScore.jpg";
+
+       // confetti LETS GOOOOOO
+
+       confetti ({
+        patriclecount: 100,
+        spread: 70,
+        origin: {y: 0.6}
+       });
     } 
+    
     else if(score >= 6 && score <= 9){
         document.getElementById("playerScore").innerHTML == point;
         document.getElementById("playerResult").innerHTML = "Ahhh a challenger! You almost there! try again. You got this!";
