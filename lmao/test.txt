@@ -1,1 +1,1 @@
-o
+A fun code I made to mess around with friends while playing with css and keeping up with javascript
